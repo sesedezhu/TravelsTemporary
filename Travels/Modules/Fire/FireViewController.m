@@ -53,6 +53,8 @@
     // Do any additional setup after loading the view.
     
     [self setNavigation];
+    
+    //git代码上传更新测试
 }
 
 - (void)didReceiveMemoryWarning {
