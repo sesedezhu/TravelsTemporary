@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217B7A98211159C000157434 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B7A95211159C000157434 /* LeftSlideViewController.m */; };
+		217B7A99211159C000157434 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B7A97211159C000157434 /* UIView_extra.m */; };
 		818061A02109565D006A6B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180619F2109565D006A6B43 /* AppDelegate.m */; };
 		818061A821095660006A6B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818061A721095660006A6B43 /* Assets.xcassets */; };
 		818061AB21095660006A6B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818061A921095660006A6B43 /* LaunchScreen.storyboard */; };
@@ -21,8 +23,6 @@
 		8180620821095944006A6B43 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180620721095944006A6B43 /* FindViewController.m */; };
 		8180620B210959B0006A6B43 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180620A210959B0006A6B43 /* RecommendViewController.m */; };
 		8180620F21095A65006A6B43 /* FireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180620E21095A65006A6B43 /* FireViewController.m */; };
-		8180622521097080006A6B43 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180622221097080006A6B43 /* UIView_extra.m */; };
-		8180622621097080006A6B43 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180622421097080006A6B43 /* LeftSlideViewController.m */; };
 		818062292109869D006A6B43 /* LeftHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818062282109869D006A6B43 /* LeftHeaderView.m */; };
 		8180622B210986B0006A6B43 /* LeftHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8180622A210986B0006A6B43 /* LeftHeaderView.xib */; };
 		8180622F21099041006A6B43 /* LeftMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180622D21099041006A6B43 /* LeftMenuCell.m */; };
@@ -47,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		217B7A94211159C000157434 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		217B7A95211159C000157434 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		217B7A96211159C000157434 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		217B7A97211159C000157434 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 		8180619B2109565D006A6B43 /* Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8180619E2109565D006A6B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8180619F2109565D006A6B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,10 +80,6 @@
 		8180620A210959B0006A6B43 /* RecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
 		8180620D21095A65006A6B43 /* FireViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireViewController.h; sourceTree = "<group>"; };
 		8180620E21095A65006A6B43 /* FireViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireViewController.m; sourceTree = "<group>"; };
-		8180622121097080006A6B43 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftSlideViewController.h; path = Travels/Venders/LeftSlideViewController/LeftSlideViewController.h; sourceTree = SOURCE_ROOT; };
-		8180622221097080006A6B43 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIView_extra.m; path = Travels/Venders/LeftSlideViewController/UIView_extra.m; sourceTree = SOURCE_ROOT; };
-		8180622321097080006A6B43 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIView_extra.h; path = Travels/Venders/LeftSlideViewController/UIView_extra.h; sourceTree = SOURCE_ROOT; };
-		8180622421097080006A6B43 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftSlideViewController.m; path = Travels/Venders/LeftSlideViewController/LeftSlideViewController.m; sourceTree = SOURCE_ROOT; };
 		818062272109869D006A6B43 /* LeftHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftHeaderView.h; sourceTree = "<group>"; };
 		818062282109869D006A6B43 /* LeftHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftHeaderView.m; sourceTree = "<group>"; };
 		8180622A210986B0006A6B43 /* LeftHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftHeaderView.xib; sourceTree = "<group>"; };
@@ -113,6 +113,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217B7A93211159C000157434 /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				217B7A94211159C000157434 /* LeftSlideViewController.h */,
+				217B7A95211159C000157434 /* LeftSlideViewController.m */,
+				217B7A96211159C000157434 /* UIView_extra.h */,
+				217B7A97211159C000157434 /* UIView_extra.m */,
+			);
+			path = LeftSlideViewController;
+			sourceTree = "<group>";
+		};
 		818061922109565D006A6B43 = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +221,7 @@
 		818061D4210956AF006A6B43 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
-				8180621A21097043006A6B43 /* LeftSlideViewController */,
+				217B7A93211159C000157434 /* LeftSlideViewController */,
 			);
 			path = Venders;
 			sourceTree = "<group>";
@@ -329,18 +340,6 @@
 				8180620E21095A65006A6B43 /* FireViewController.m */,
 			);
 			path = Fire;
-			sourceTree = "<group>";
-		};
-		8180621A21097043006A6B43 /* LeftSlideViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8180622121097080006A6B43 /* LeftSlideViewController.h */,
-				8180622421097080006A6B43 /* LeftSlideViewController.m */,
-				8180622321097080006A6B43 /* UIView_extra.h */,
-				8180622221097080006A6B43 /* UIView_extra.m */,
-			);
-			name = LeftSlideViewController;
-			path = ../../../../Desktop/LeftSlide/LeftSlide/LeftSlide/LeftSlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,10 +473,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8180622521097080006A6B43 /* UIView_extra.m in Sources */,
 				8180622F21099041006A6B43 /* LeftMenuCell.m in Sources */,
 				818062292109869D006A6B43 /* LeftHeaderView.m in Sources */,
 				818061F3210957F3006A6B43 /* LeftViewController.m in Sources */,
+				217B7A99211159C000157434 /* UIView_extra.m in Sources */,
 				818061FE2109582E006A6B43 /* OtherController.m in Sources */,
 				818061AE21095660006A6B43 /* main.m in Sources */,
 				818061EF2109577E006A6B43 /* BaseTabBarController.m in Sources */,
@@ -486,8 +485,8 @@
 				8180620821095944006A6B43 /* FindViewController.m in Sources */,
 				818061FD2109582E006A6B43 /* UserInfoViewController.m in Sources */,
 				8180620B210959B0006A6B43 /* RecommendViewController.m in Sources */,
+				217B7A98211159C000157434 /* LeftSlideViewController.m in Sources */,
 				818061A02109565D006A6B43 /* AppDelegate.m in Sources */,
-				8180622621097080006A6B43 /* LeftSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
