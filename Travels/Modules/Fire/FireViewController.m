@@ -25,6 +25,7 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
 
 }
+
 - (void)leftBarAction{
     AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     if (tempAppDelegate.LeftSlideVC.closed){
@@ -54,7 +55,6 @@
     
     [self setNavigation];
     
-    //git代码上传更新测试 再次上传测试
 }
 
 - (void)didReceiveMemoryWarning {

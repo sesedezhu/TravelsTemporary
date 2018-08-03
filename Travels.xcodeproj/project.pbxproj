@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		217B7A98211159C000157434 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B7A95211159C000157434 /* LeftSlideViewController.m */; };
 		217B7A99211159C000157434 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B7A97211159C000157434 /* UIView_extra.m */; };
+		810AEF5F21140B93007850B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 810AEF6121140B93007850B1 /* InfoPlist.strings */; };
+		810AEF6521140D70007850B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 810AEF6721140D70007850B1 /* Localizable.strings */; };
+		810AEF6C211439A7007850B1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810AEF6B211439A7007850B1 /* BaseViewController.m */; };
 		818061A02109565D006A6B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8180619F2109565D006A6B43 /* AppDelegate.m */; };
 		818061A821095660006A6B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818061A721095660006A6B43 /* Assets.xcassets */; };
 		818061AB21095660006A6B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818061A921095660006A6B43 /* LaunchScreen.storyboard */; };
@@ -51,6 +54,14 @@
 		217B7A95211159C000157434 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
 		217B7A96211159C000157434 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		217B7A97211159C000157434 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		810AEF5C21140AB3007850B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		810AEF6021140B93007850B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		810AEF6221140BBA007850B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		810AEF6621140D70007850B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		810AEF6821140D71007850B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		810AEF69211426D9007850B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		810AEF6A211439A7007850B1 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		810AEF6B211439A7007850B1 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		8180619B2109565D006A6B43 /* Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8180619E2109565D006A6B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8180619F2109565D006A6B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +170,8 @@
 				818061A721095660006A6B43 /* Assets.xcassets */,
 				818061A921095660006A6B43 /* LaunchScreen.storyboard */,
 				818061AC21095660006A6B43 /* Info.plist */,
+				810AEF6721140D70007850B1 /* Localizable.strings */,
+				810AEF6121140B93007850B1 /* InfoPlist.strings */,
 				818061AD21095660006A6B43 /* main.m */,
 			);
 			path = Travels;
@@ -267,6 +280,8 @@
 		818061DB210956B0006A6B43 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				810AEF6A211439A7007850B1 /* BaseViewController.h */,
+				810AEF6B211439A7007850B1 /* BaseViewController.m */,
 				818061EA2109577E006A6B43 /* BaseNavController.h */,
 				818061EC2109577E006A6B43 /* BaseNavController.m */,
 				818061EB2109577E006A6B43 /* BaseTabBarController.h */,
@@ -427,6 +442,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 818061922109565D006A6B43;
 			productRefGroup = 8180619C2109565D006A6B43 /* Products */;
@@ -446,9 +462,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				818061AB21095660006A6B43 /* LaunchScreen.storyboard in Resources */,
+				810AEF6521140D70007850B1 /* Localizable.strings in Resources */,
 				8180623021099041006A6B43 /* LeftMenuCell.xib in Resources */,
 				8180622B210986B0006A6B43 /* LeftHeaderView.xib in Resources */,
 				818061A821095660006A6B43 /* Assets.xcassets in Resources */,
+				810AEF5F21140B93007850B1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +492,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8180622F21099041006A6B43 /* LeftMenuCell.m in Sources */,
+				810AEF6C211439A7007850B1 /* BaseViewController.m in Sources */,
 				818062292109869D006A6B43 /* LeftHeaderView.m in Sources */,
 				818061F3210957F3006A6B43 /* LeftViewController.m in Sources */,
 				217B7A99211159C000157434 /* UIView_extra.m in Sources */,
@@ -522,10 +541,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		810AEF6121140B93007850B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810AEF6021140B93007850B1 /* en */,
+				810AEF6221140BBA007850B1 /* zh-Hans */,
+				810AEF69211426D9007850B1 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		810AEF6721140D70007850B1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810AEF6621140D70007850B1 /* en */,
+				810AEF6821140D71007850B1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		818061A921095660006A6B43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				818061AA21095660006A6B43 /* Base */,
+				810AEF5C21140AB3007850B1 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -537,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -584,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -595,6 +635,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -636,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

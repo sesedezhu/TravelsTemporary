@@ -6,8 +6,8 @@
 //  Copyright © 2018年 ZQWFMac. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface FireViewController : UIViewController
+@interface FireViewController : BaseViewController
 
 @end
