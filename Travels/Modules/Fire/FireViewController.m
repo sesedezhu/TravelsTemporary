@@ -8,7 +8,7 @@
 
 #import "FireViewController.h"
 #import "AppDelegate.h"
-
+#import "CollectionViewController.h"
 @interface FireViewController ()
 
 @end
@@ -23,7 +23,9 @@
     menuBtn.layer.cornerRadius = 15;
     [menuBtn addTarget:self action:@selector(leftBarAction) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
-
+    
+    CollectionViewController *collection = [[CollectionViewController alloc] init];
+    [self.navigationController pushViewController:collection animated:YES];
 }
 
 - (void)leftBarAction{
